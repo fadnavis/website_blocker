@@ -7,7 +7,7 @@ host_path = "/etc/hosts"
 host_temp = "hosts"
 
 while True:
-    if d(d.now().year,d.now().month,d.now().day,8) < d.now() < d(d.now().year,d.now().month, d.now().day,18):
+    if d(d.now().year,d.now().month,d.now().day,9) < d.now() < d(d.now().year,d.now().month, d.now().day,18):
         print("Working time..")
         with open(host_temp,'r+') as file:
             content = file.read()
